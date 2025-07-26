@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            float: right;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #77aaff;
+            color: #ffffff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px 0;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #ffffff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">John</span> Doe</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Développeur Web & Designer</h1>
+            <p>Création de sites web modernes et réactifs.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <p>Je suis un développeur web passionné avec une expérience dans la création de sites web et d'applications. J'aime apprendre de nouvelles technologies et relever des défis créatifs.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Mes Projets</h2>
+            <div class="project">
+                <h3>Projet 1</h3>
+                <p>Description du premier projet. C'était un projet intéressant qui m'a permis d'apprendre beaucoup sur...</p>
+            </div>
+            <div class="project">
+                <h3>Projet 2</h3>
+                <p>Description du deuxième projet. J'ai utilisé les technologies X, Y et Z pour accomplir...</p>
+            </div>
+            <div class="project">
+                <h3>Projet 3</h3>
+                <p>Description du troisième projet. Le défi principal était de...</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contactez-moi</h2>
+            <p>Vous pouvez me joindre par email à : <a href="mailto:email@example.com">email@example.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025, John Doe</p>
+    </footer>
+</body>
+</html>
