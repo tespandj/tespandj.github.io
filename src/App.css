@@ -1,80 +1,50 @@
 /* General Styles */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #88BAC0;
-  color: white;
+	margin: 0;
+	background-color: #88BAC0;
+
+	/* Centrage global */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; /* prend toute la hauteur de la fenêtre */
 }
 
-a {
-  color: #00c3ff;
-  text-decoration: none;
-  margin: 0 15px;
-  transition: color 0.3s ease;
-}
-
-#name {
-  color: #FFC2EC;
-}
-
-#status {
-  color: black;
-}
-
-a:hover {
-  color: white;
-}
-
-/* App container */
 #app-container {
-  text-align: center;
+	width: 100vw;
+	height: 100vh;
+
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-/* Header and Nav */
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 0;
-  z-index: 1000;
-}
+.hero-content,
+.section-content {
+	color: white;
+	width: 400px;
+	padding: 20px;
 
-/* Home Section / Hero */
-#home {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
+	border-radius: 10px;
 
-.hero-content {
-  position: relative;
-  z-index: 10;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .hero-content h1 {
-  font-size: 5rem;
-  margin: 0;
+	font-size: 0.4rem;
+	color: EAD3E3;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+	font-size: 0.18rem;
+	color: #1E1E1E;
 }
 
-/* 3D Scene Container */
-.scene-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+.section-content h2 {
+	font-size: 2.5rem;
 }
